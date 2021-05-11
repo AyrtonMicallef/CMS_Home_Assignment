@@ -1,0 +1,23 @@
+/*
+Theme Name: Themify Ultra Child
+Theme URI: https://themify.me/themes/ultra-child/
+Version: 5.2.1
+Template: themify-ultra
+Author: Ayrton
+Author URI: https://www.themify.me
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: themify-ultra-child
+*/
+
+#headerwrap {
+    color: #000;
+    position: absolute;
+    background-color: #f00;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    min-height: 55px;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    transition: background-color .3s ease-in-out,color .3s ease-in-out,box-shadow .3s ease-in-out,left .3s ease-in-out,min-height .3s ease-in-out;
+}
